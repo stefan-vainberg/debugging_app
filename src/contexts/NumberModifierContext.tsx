@@ -29,14 +29,11 @@ function NumberModifierProvider({ children }: NumberModifierProviderProps) {
     const invokeOperation = () => {
         switch (currOperation) {
             case 'addOne':
-                setCurrentNumber(currentNumber + 1)
-                return;
+                setCurrentNumber(currentNumber + 1);
             case 'subtractOne':
-                setCurrentNumber(currentNumber - 1)
-                return;
+                setCurrentNumber(currentNumber - 1);
             case 'multiplyByFive':
-                setCurrentNumber(currentNumber * 5)
-                return;
+                setCurrentNumber(currentNumber * 5);
         }
     }
 

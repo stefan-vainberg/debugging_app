@@ -8,7 +8,7 @@ const InitialNumberInput: React.FunctionComponent = () => {
     const inputRef = useRef<HTMLInputElement>(null);
     const onInitialNumberButtonClick = () => {
         if (inputRef.current) {
-            setInitialNumber(parseFloat(inputRef.current.value))
+            setInitialNumber(inputRef.current.value);
         }
     }
     return (
