@@ -4,7 +4,7 @@ import HomePageContainer from './pages/HomePage.tsx';
 
 function App() {
   return (
-    <HomePageContainer />
+    <HomePageContainer    />
   );
 }
 
